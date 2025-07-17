@@ -1,1 +1,34 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.malla {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.materia {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.materia.bloqueada {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+#bio {
+  margin-top: 20px;
+  font-style: italic;
+}
 
